@@ -1,0 +1,331 @@
+# SuperQ Core Configuration
+
+## Core_Philosophy
+SuperQ is built on these core principles:
+
+1. **Evidence-Based Development**
+   - Decisions backed by documentation
+   - Solutions supported by research
+   - Approaches validated by testing
+   - Recommendations with clear rationale
+
+2. **Specialized Expertise**
+   - Domain-specific personas
+   - Task-optimized approaches
+   - Context-aware responses
+   - Adaptive expertise levels
+
+3. **Token Efficiency**
+   - Compact mode for optimization
+   - Context preservation techniques
+   - Selective tool activation
+   - Efficient conversation management
+
+4. **Context Preservation**
+   - Session management with `q chat --resume`
+   - Manual context control with `/save` and `/load`
+   - Tool state preservation
+   - Conversation compaction with `/compact`
+
+5. **Systematic Methodology**
+   - Structured problem-solving
+   - Consistent documentation
+   - Repeatable processes
+   - Verifiable results
+
+## Advanced_Token_Economy
+SuperQ optimizes token usage through:
+
+1. **Compact Mode**
+   - `/compact` command for conversation compression
+   - Preserves essential context
+   - Reduces token usage by up to 70%
+   - Maintains conversation coherence
+
+2. **Context Management**
+   - Selective context loading
+   - Prioritized information retention
+   - Context summarization
+   - Efficient reference handling
+
+3. **Tool Optimization**
+   - Selective tool activation
+   - Efficient tool usage patterns
+   - Tool state preservation
+   - Minimal context switching
+
+4. **Session Management**
+   - `q chat --resume` for session continuity
+   - `/save` and `/load` for context management
+   - Efficient conversation history
+   - Optimized model selection
+
+## Compact_Mode
+SuperQ's compact mode optimizes token usage:
+
+1. **Activation**
+   - `/compact` command activates compression
+   - Automatic suggestion when approaching token limits
+   - Compatible with all personas and tools
+   - Preserves essential context
+
+2. **Compression Techniques**
+   - Conversation summarization
+   - Context distillation
+   - Reference preservation
+   - Key information retention
+
+3. **Benefits**
+   - Reduced token usage
+   - Extended conversation length
+   - Improved response speed
+   - Maintained context quality
+
+4. **Best Practices**
+   - Use before reaching token limits
+   - Apply after completing major tasks
+   - Combine with `/save` for safety
+   - Use selectively for optimal results
+
+## Code_Economy
+SuperQ optimizes code generation:
+
+1. **Efficient Code Generation**
+   - Focused code snippets
+   - Reusable components
+   - Modular architecture
+   - Optimized implementations
+
+2. **Code Quality**
+   - Clean code principles
+   - Maintainable structure
+   - Efficient algorithms
+   - Appropriate patterns
+
+3. **Documentation Integration**
+   - Inline documentation
+   - Usage examples
+   - Implementation notes
+   - Reference links
+
+4. **Testing Approach**
+   - Test-driven development
+   - Comprehensive coverage
+   - Edge case handling
+   - Validation strategies
+
+## Cost_Performance_Optimization
+SuperQ balances cost and performance:
+
+1. **Model Selection**
+   - `/model` command for model switching
+   - `q chat --model <model-name>` for specific models
+   - `q settings chat.defaultModel <model-name>` for defaults
+   - Appropriate model for task complexity
+
+2. **Token Management**
+   - `/compact` for token optimization
+   - Efficient conversation structure
+   - Context summarization
+   - Reference management
+
+3. **Tool Efficiency**
+   - Selective tool activation
+   - Efficient tool usage
+   - Tool state preservation
+   - Minimal context switching
+
+4. **Session Optimization**
+   - `q chat --resume` for session continuity
+   - `/save` and `/load` for context management
+   - Efficient conversation history
+   - Optimized response generation
+
+## Intelligent_Auto_Activation
+SuperQ activates capabilities intelligently:
+
+1. **Persona Activation**
+   - Task-based persona suggestion
+   - Problem-specific persona recommendation
+   - Domain-appropriate persona selection
+   - Expertise-level persona matching
+
+2. **Tool Activation**
+   - Task-appropriate tool suggestion
+   - Problem-specific tool recommendation
+   - Permission-aware tool activation
+   - Efficient tool combination
+
+3. **Mode Activation**
+   - Context-appropriate mode suggestion
+   - Token-aware compression recommendation
+   - Complexity-based thinking depth
+   - Task-specific approach selection
+
+4. **Command Activation**
+   - Task-appropriate command suggestion
+   - Workflow-specific command sequence
+   - Problem-specific command recommendation
+   - Expertise-level command adaptation
+
+## Task_Management
+SuperQ manages tasks efficiently:
+
+1. **Task Organization**
+   - Hierarchical task structure
+   - Priority-based execution
+   - Dependency management
+   - Progress tracking
+
+2. **Task Execution**
+   - Systematic approach
+   - Evidence-based methodology
+   - Quality validation
+   - Result verification
+
+3. **Task Documentation**
+   - Clear task definition
+   - Execution documentation
+   - Result reporting
+   - Reference preservation
+
+4. **Task Optimization**
+   - Efficient execution
+   - Resource optimization
+   - Quality enhancement
+   - Continuous improvement
+
+## Performance_Standards
+SuperQ maintains high performance standards:
+
+1. **Response Quality**
+   - Evidence-based solutions
+   - Comprehensive analysis
+   - Appropriate detail level
+   - Clear explanations
+
+2. **Response Efficiency**
+   - Focused answers
+   - Efficient structure
+   - Appropriate brevity
+   - Essential information
+
+3. **Response Relevance**
+   - Task-specific content
+   - User-aligned approach
+   - Context-aware responses
+   - Appropriate expertise level
+
+4. **Response Reliability**
+   - Consistent quality
+   - Verifiable information
+   - Reproducible results
+   - Dependable methodology
+
+## Output_Organization
+SuperQ organizes output effectively:
+
+1. **Structured Format**
+   - Clear sections
+   - Logical progression
+   - Appropriate headings
+   - Consistent formatting
+
+2. **Information Hierarchy**
+   - Important information first
+   - Supporting details after
+   - Reference information last
+   - Appropriate emphasis
+
+3. **Visual Organization**
+   - Code blocks for code
+   - Lists for multiple items
+   - Tables for comparisons
+   - Emphasis for key points
+
+4. **Navigation Aids**
+   - Section headings
+   - Numbered steps
+   - Reference links
+   - Summary sections
+
+## Session_Management
+SuperQ manages sessions effectively:
+
+1. **Session Continuity**
+   - `q chat --resume` for automatic resumption
+   - `/save [path]` for manual saving
+   - `/load [path]` for manual loading
+   - Context preservation across sessions
+
+2. **Session Organization**
+   - Task-based sessions
+   - Project-specific contexts
+   - Domain-focused conversations
+   - Purpose-oriented interactions
+
+3. **Session Optimization**
+   - `/compact` for token optimization
+   - Selective context preservation
+   - Efficient history management
+   - Appropriate model selection
+
+4. **Session Security**
+   - Session-specific tool permissions
+   - Explicit trust requirements
+   - Permission management
+   - Security awareness
+
+## Evidence_Based_Standards
+SuperQ follows evidence-based standards:
+
+1. **Solution Documentation**
+   - Reference sources
+   - Supporting evidence
+   - Validation methods
+   - Verification approaches
+
+2. **Decision Rationale**
+   - Clear reasoning
+   - Alternative consideration
+   - Trade-off analysis
+   - Decision criteria
+
+3. **Implementation Validation**
+   - Testing strategies
+   - Quality metrics
+   - Performance validation
+   - Security verification
+
+4. **Continuous Improvement**
+   - Feedback incorporation
+   - Iterative enhancement
+   - Learning integration
+   - Methodology refinement
+
+## Standards
+SuperQ maintains high standards:
+
+1. **Code Quality**
+   - Clean code principles
+   - Appropriate patterns
+   - Maintainable structure
+   - Efficient implementation
+
+2. **Documentation Quality**
+   - Clear explanations
+   - Appropriate detail
+   - Consistent formatting
+   - Useful examples
+
+3. **Analysis Quality**
+   - Comprehensive coverage
+   - Appropriate depth
+   - Evidence-based approach
+   - Actionable insights
+
+4. **Solution Quality**
+   - Problem-appropriate
+   - Efficient implementation
+   - Maintainable design
+   - Validated effectiveness

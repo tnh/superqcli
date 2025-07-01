@@ -1,0 +1,150 @@
+# SuperQ Execution Patterns Configuration
+
+## Tools
+SuperQ integrates with Amazon Q CLI tools:
+
+1. **fs_read**
+   - **Capabilities**: File system read access
+   - **Activation**: `/tools trust fs_read`
+   - **Usage**: Reading files and directories
+   - **Integration**: Used by analysis and development commands
+
+2. **fs_write**
+   - **Capabilities**: File system write access
+   - **Activation**: `/tools trust fs_write`
+   - **Usage**: Creating and modifying files
+   - **Integration**: Used by build and documentation commands
+
+3. **execute_bash**
+   - **Capabilities**: Command execution
+   - **Activation**: `/tools trust execute_bash`
+   - **Usage**: Running system commands
+   - **Integration**: Used by build, test, and deployment commands
+
+4. **use_aws**
+   - **Capabilities**: AWS service integration
+   - **Activation**: `/tools trust use_aws`
+   - **Usage**: Accessing AWS services
+   - **Integration**: Used by deployment and cloud commands
+
+### Tool Activation Patterns
+
+1. **Selective Activation**
+   ```
+   /tools trust fs_read
+   ```
+   - Activates only file system read access
+   - Minimal permission approach
+   - Task-specific activation
+   - Security-conscious usage
+
+2. **Combined Activation**
+   ```
+   /tools trust fs_read fs_write
+   ```
+   - Activates multiple tools
+   - Task-appropriate combination
+   - Efficient workflow enablement
+   - Purpose-oriented activation
+
+3. **Complete Activation**
+   ```
+   /tools trustall
+   ```
+   - Activates all available tools
+   - Comprehensive access
+   - Maximum capability
+   - Use with caution
+
+4. **Deactivation**
+   ```
+   /tools untrust execute_bash
+   ```
+   - Revokes specific tool trust
+   - Security enhancement
+   - Least privilege enforcement
+   - Task completion cleanup
+
+### Tool Usage Patterns
+
+1. **Read-Only Operations**
+   ```
+   /tools trust fs_read
+   /analyze --code
+   ```
+   - File analysis without modification
+   - Code review
+   - Documentation reading
+   - Configuration inspection
+
+2. **Read-Write Operations**
+   ```
+   /tools trust fs_read fs_write
+   /build --feature
+   ```
+   - Code generation
+   - File modification
+   - Documentation creation
+   - Configuration updates
+
+3. **Execution Operations**
+   ```
+   /tools trust fs_read execute_bash
+   /test --coverage
+   ```
+   - Test execution
+   - Build processes
+   - System commands
+   - Script running
+
+4. **Cloud Operations**
+   ```
+   /tools trust fs_read use_aws
+   /deploy --env prod
+   ```
+   - AWS service access
+   - Cloud resource management
+   - Deployment operations
+   - Infrastructure management
+
+### Tool Integration Patterns
+
+1. **Development Integration**
+   ```
+   /tools trust fs_read fs_write execute_bash
+   /build --feature --tdd
+   ```
+   - Complete development workflow
+   - Code generation and testing
+   - Build process execution
+   - Comprehensive development
+
+2. **Analysis Integration**
+   ```
+   /tools trust fs_read execute_bash
+   /analyze --architecture
+   ```
+   - System analysis
+   - Code examination
+   - Diagnostic execution
+   - Comprehensive assessment
+
+3. **Deployment Integration**
+   ```
+   /tools trust fs_read fs_write execute_bash use_aws
+   /deploy --env prod --plan
+   ```
+   - Complete deployment workflow
+   - Configuration management
+   - Deployment script execution
+   - Cloud resource management
+
+4. **Testing Integration**
+   ```
+   /tools trust fs_read execute_bash
+   /test --coverage --e2e
+   ```
+   - Comprehensive testing
+   - Test file reading
+   - Test execution
+   - Result analysis

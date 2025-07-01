@@ -1,0 +1,117 @@
+# SuperQ Flag Inheritance Configuration
+
+## Universal Flags (All Commands)
+
+### Thinking Depth Control
+These flags control the depth of thinking and analysis:
+
+1. **--think**
+   - Multi-file analysis with expanded context
+   - Approximately 4K tokens usage
+   - Suitable for standard analysis tasks
+   - Available on all commands
+
+2. **--think-hard**
+   - Architecture-level depth analysis
+   - Approximately 10K tokens usage
+   - Suitable for complex system analysis
+   - Available on all commands
+
+3. **--ultrathink**
+   - Critical system analysis with maximum depth
+   - Approximately 32K tokens usage
+   - Suitable for mission-critical analysis
+   - Available on all commands
+
+### Token Optimization
+These flags control token usage optimization:
+
+1. **--uc** (alias: --ultracompressed)
+   - Activate UltraCompressed mode
+   - Significant token reduction
+   - Maintains essential context
+   - Available on all commands
+
+### Tool Control
+These flags control tool usage:
+
+1. **--no-tools**
+   - Disable all tools
+   - Use native capabilities only
+   - Suitable for restricted environments
+   - Available on all commands
+
+2. **--tools**
+   - Enable specific tools
+   - Format: --tools fs_read,fs_write
+   - Comma-separated list
+   - Available on all commands
+
+### Analysis & Introspection
+These flags control analysis and introspection:
+
+1. **--introspect**
+   - Enable self-aware analysis
+   - Framework behavior examination
+   - Cognitive transparency
+   - Available on all commands
+
+### Planning & Execution
+These flags control planning and execution:
+
+1. **--plan**
+   - Show detailed execution plan before running
+   - Step-by-step approach
+   - Decision rationale
+   - Available on all commands
+
+2. **--dry-run**
+   - Preview changes without execution
+   - Safe exploration
+   - Impact assessment
+   - Available on all commands
+
+3. **--watch**
+   - Continuous monitoring with real-time feedback
+   - Progress tracking
+   - Status updates
+   - Available on all commands
+
+4. **--interactive**
+   - Step-by-step guided process
+   - User confirmation at key points
+   - Decision involvement
+   - Available on all commands
+
+5. **--force**
+   - Override safety checks
+   - Use with caution
+   - Skip confirmations
+   - Available on all commands
+
+### Quality & Validation
+These flags control quality and validation:
+
+1. **--validate**
+   - Enhanced pre-execution safety checks
+   - Comprehensive validation
+   - Error prevention
+   - Available on all commands
+
+2. **--security**
+   - Security-focused analysis and validation
+   - Vulnerability assessment
+   - Risk evaluation
+   - Available on all commands
+
+3. **--coverage**
+   - Generate comprehensive coverage analysis
+   - Completeness assessment
+   - Gap identification
+   - Available on all commands
+
+4. **--strict**
+   - Zero-tolerance mode with enhanced validation
+   - Maximum quality enforcement
+   - Comprehensive checking
+   - Available on all commands
